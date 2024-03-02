@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vedabase.io | Home page</title>
+    <link rel="stylesheet" href="index.css" />
+    <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+<script src="login.js"></script>
+
+  </head>
+  <body>
+    <div id="header">
+      <h1>Vedabase.io</h1>
+      <div id="vedabase_logo">
+        <img src="image/vedabase_logo.png" alt="vedabase_logo" />
+      </div>
+      <div id="h2font">
+        <h2>The topmost source of spiritual knowledge.</h2>
+      </div>
+      <div id="header_p"><p>
+        Vedabase.io is a free, online multilingual research tool designed
+        primarily to explore the teachings of His Divine Grace A. C.
+        Bhaktivedanta Swami Prabhupada.
+      </p>
+    </div>
+    <nav>
+        <a href="#">Library</a>
+        <a href="#">Tools</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Support Us</a>
+        <button id="loginBtn">LOGIN</button>
+    </nav>
+    
+
+  <!-- Login Popup -->
+  <div id="loginPopup" class="popup">
+      <div class="popup-content">
+          <span class="close" onclick="closePopup()">&times;</span>
+          <h2>Login to Book Store</h2>
+          <form class="login-form" action="#" method="post">
+              <div class="input-group">
+                  <label for="username">Username</label>
+                  <input type="text" id="username" name="username" required>
+              </div>
+              <div class="input-group">
+                  <label for="password">Password</label>
+                  <input type="password" id="password" name="password" required>
+              </div>
+              <button type="submit">Login</button>
+          </form>
+      </div>
+  </div>
+
+  <script src="login.js"></script>
+    </div>
+    <div id="main">
+    <a href="bhagavad_geeta/bg_chpt.html" id="BG"><img src="image/BG.jpg" alt="Bhagawad Geeta"></a>
+    <a href="shreemad_bhagwatam/sb_chpt.html" id="sb"><img src="image/SB.jpg" alt="Srimad Bhagwatam"></a>
+    <a href="#" id="krsna"><img src="image/krsna.jpg" alt="krsna book"></a>
+    <a href="#" id="scc"><img src="image/sri_chaitanya_charitamrit.jpg" alt="sri_chaitanya_charitamrit"></a>
+    <a href="#" id="self_realization"><img src="image/self_realization.jpg" alt=" Self Realization"></a>
+    <a href="#" id="sri_prabhipada"><img src="image/srila_prabhupada_lilamrta.jpg" alt="sri Prabhupada"></a>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-4">
+                  <h3>About Us</h3>
+                  <p>We are dedicated to preserving and sharing the wisdom of Hindu spirituality through our extensive collection of spiritual books.</p>
+              </div>
+              <div class="col-md-4">
+                  <h3>Contact Information</h3>
+                  <p>Email: info@hinduspiritualbooks.com<br>Phone: 123-456-7890<br>Address: 123 Main St, City, Country</p>
+              </div>
+              <div class="col-md-4">
+                  <h3>Follow Us</h3>
+                  
+                  <a href="#" class="fa fa-facebook"></a>
+                  <a href="#" class="fa fa-twitter"></a>
+                  <a href="#" class="fa fa-instagram"></a>
+                  <a href="#" class="fa fa-snapchat"></a>
+                  
+              </div>
+          </div>
+      </div>
+  </footer>
+  
+      
+
+    
+  </body>
+</html>
